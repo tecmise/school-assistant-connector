@@ -6,10 +6,6 @@ type Response struct {
 	Override *bool   `json:"override"`
 }
 
-// type Request struct {
-// 	Messages []MessageContent `json:"messages"`
-// }
-
 type MessageContent struct {
 	Role  string         `json:"role"`
 	Text  string         `json:"text"`

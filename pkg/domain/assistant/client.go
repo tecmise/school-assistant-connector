@@ -34,13 +34,13 @@ func Lambda(identifier string) Client {
 }
 
 func (c client) ChatPrompt(ctx context.Context, request any) (Response, error) {
-	var school Response
+	var response Response
 	parameter := connector.NewParameterBuilder().
 		WithHost(c.host).
+		WithCredentials(ctx).
 		WithResource("assistant/chat/prompt").
 		WithBody(request).
-		WithCredentials(ctx).
 		WithMethod("POST").
 		Build()
-	return school, c.mapper.Create(parameter, &school)
+	return response, c.mapper.Create(parameter, &response)
 }

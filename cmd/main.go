@@ -27,7 +27,7 @@ func init() {
 			return fmt.Sprintf("%s()", funcName), fmt.Sprintf("%s:%d", filename, f.Line)
 		},
 	})
-	logrus.Debug("Log de depuração ativado")
+	logrus.Debug("Enable debug mode")
 }
 
 func main() {
