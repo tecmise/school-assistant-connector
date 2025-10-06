@@ -3,8 +3,7 @@ package assistant
 import (
 	"context"
 
-	"github.com/tecmise/connector-lib/pkg/adapters/outbound/lambda"
-	"github.com/tecmise/connector-lib/pkg/adapters/outbound/rest"
+	"github.com/tecmise/connector-lib/pkg/adapters/outbound/client_rest"
 	"github.com/tecmise/connector-lib/pkg/ports/output/connector"
 )
 
@@ -22,14 +21,14 @@ type (
 func Rest(host string) Client {
 	return &client{
 		host:   host,
-		mapper: rest.NewConnector[Response](),
+		mapper: client_rest.NewConnector[Response](),
 	}
 }
 
 func Lambda(identifier string) Client {
 	return &client{
 		host:   identifier,
-		mapper: lambda.NewConnector[Response](),
+		mapper: client_rest.NewConnector[Response](),
 	}
 }
 
