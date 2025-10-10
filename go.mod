@@ -4,7 +4,7 @@ go 1.23.5
 
 require (
 	github.com/sirupsen/logrus v1.9.3
-	github.com/tecmise/connector-lib v1.0.2
+	github.com/tecmise/connector-lib v1.1.0
 )
 
 require (

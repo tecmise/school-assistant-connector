@@ -16,6 +16,8 @@ github.com/stretchr/testify v1.7.0 h1:nwc3DEeHmmLAfoZucVR881uASk0Mfjw8xYJ99tb5Cc
 github.com/stretchr/testify v1.7.0/go.mod h1:6Fq8oRcR53rry900zMqJjRRixrwX3KX962/h/Wwjteg=
 github.com/tecmise/connector-lib v1.0.2 h1:JoO+LYrXYIwiPBV8HC2LwObPmpT5EMyPAu8uFqNN0xc=
 github.com/tecmise/connector-lib v1.0.2/go.mod h1:xm7nEroREcamTl3ANGwW+zAJJp94imMdI9ZshfX07ws=
+github.com/tecmise/connector-lib v1.1.0 h1:eP4PZE2tZ/07D9yByu+tCIbcO/ek5HMqJIReTjKzm94=
+github.com/tecmise/connector-lib v1.1.0/go.mod h1:xm7nEroREcamTl3ANGwW+zAJJp94imMdI9ZshfX07ws=
 github.com/valyala/bytebufferpool v1.0.0 h1:GqA5TC/0021Y/b9FG4Oi9Mr3q7XYx6KllzawFIhcdPw=
 github.com/valyala/bytebufferpool v1.0.0/go.mod h1:6bBcMArwyJ5K/AmCkWv1jt77kVWyCJ6HpOuEn7z0Csc=
 github.com/valyala/fasthttp v1.65.0 h1:j/u3uzFEGFfRxw79iYzJN+TteTJwbYkru9uDp3d0Yf8=
